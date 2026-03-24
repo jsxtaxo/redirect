@@ -1,0 +1,22 @@
+{
+  "name": "redirect",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/axoblue17772/redirect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axoblue17772/redirect.git"
+  },
+  "license": "ISC",
+  "author": "axoblue17772",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
