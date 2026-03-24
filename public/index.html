@@ -7,8 +7,60 @@
 </head>
 <body>
     <script>
-        console.log("redirection..")
-        window.location.href = "https://duckwar-oy42.onrender.com/"
+        function Redirect(){
+            console.log("redirection..")
+            window.location.href = "https://duckwar-oy42.onrender.com/"
+        }
     </script>
+    <style>
+        @font-face {
+            font-family: pixelFont;
+            src: url(./assets/Pixelpurl-0vBPP.woff);
+        }
+
+        body {
+            background-image: linear-gradient(90deg, #930c7d, #ffffff, #ffffff, #930c7d);
+        }
+
+        #text {
+            border: solid black 3px;
+            font-size: 2em;
+            font-family: pixelFont;
+            width: 45%;
+            margin: 5% auto;
+            padding: 1em;
+        }
+
+        span {
+            color: #930c7d;
+        }
+
+        #container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        button {
+            border: solid black 3px;
+            font-size: 2em;
+            font-family: pixelFont;
+            padding: 0.5em;
+            transition: all 0.2s;
+        }
+
+        button:hover {
+            transform: scale(1.08);
+        }
+    </style>
+    <div id="container">
+        <div id="text">
+            Welcome to DuckWar. You are currently on a third-party redirect page for the game, 
+            as the web address has changed. This page will no longer be available in the near future, 
+            so please use this link to play DuckWar : <span>[duckwar-oy42.onrender.com]</span> .
+        </div>
+        <button onclick="Redirect()" >Redirect</button>
+    </div>
 </body>
 </html>
