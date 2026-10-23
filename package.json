@@ -1,12 +1,7 @@
 {
   "name": "redirect",
   "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/axoblue17772/redirect",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/axoblue17772/redirect.git"
-  },
+  "description": "redirection to duckwar official page",
   "license": "ISC",
   "author": "axoblue17772",
   "type": "commonjs",
